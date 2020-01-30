@@ -1,0 +1,28 @@
+body{
+ margin: 0;background-color: #fff1cf;
+
+}
+
+#mainimage{
+  border-radius: 200px;
+  margin-left: 400px;
+  width: 600px;
+}
+
+.div1{
+  margin-left: 600px;
+  margin-bottom: 200px;
+  margin-top: 40px;
+
+}
+
+.heading{
+  margin: 0px;
+  color:  #015668;
+}
+
+.role{
+  margin-left: 20px;
+  margin-top: 0px;
+  color: #015668;
+}
