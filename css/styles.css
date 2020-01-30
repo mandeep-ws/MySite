@@ -6,7 +6,7 @@ body{
 
 #mainimage{
   border-radius: 60px;
-  margin: 500px auto 0 auto;
+  margin: 0 auto 0 auto;
   width: 500px;
   resize: both;
 }
@@ -14,27 +14,84 @@ body{
 #animation{
   border-radius: 100px;
   width: 100px;
-  margin: 10px auto 0 auto;
+  margin: 0 auto 0 auto;
   resize: both;
+}
+
+
+#animation1{
+  border-radius: 100px;
+  margin-bottom: 800px;
+  margin-left: 1400px;
+
+  height: 100px;
+
+
+
+
+
+
+}
+
+#span1{
+  margin-bottom: 1000px;
+
+}
+
+
+#h31{
+  width: 300px;
+  margin-left: 250px;
+
+
+
+
+}
+
+#p1{
+width: 600px;
+margin-left: 100px;
 }
 
 .div1{
   margin: 0 auto 0 auto;
   resize: both;
+  width: 700px;
 
 }
 
+.div2{
+  margin: 0 auto 0 auto;
+  resize: both;
+  width: 750px;
+  margin-top: 100px;
+
+
+}
+
+.div3{
+
+  width: 200px;
+  margin-left: 700px;
+  display: inline-block;
+  position: absolute;
+  margin-bottom: 40px;
+}
+
 .heading{
-  margin: 20 auto 0 auto;
+  margin: 100px auto 100px auto;
   color:  #015668;
-  font-size: 60px;
+  font-size: 80px;
+  font-family: 'Dancing Script', cursive;
   resize: both;
 }
 
 .role{
-  margin: 0 auto 10px auto;
+  margin: 0 auto 100px auto;
   color: #015668;
   font-size: 20px;
+  font-family: 'Lobster', cursive;
   width: 600px;
+  margin-bottom: 200px;
   resize: both;
 }
