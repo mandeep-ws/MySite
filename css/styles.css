@@ -1,31 +1,40 @@
 body{
  margin: 0;background-color: #fff1cf;
+ text-align: center;
 
 }
 
 #mainimage{
-  border-radius: 200px;
-  margin-left: 400px;
-  width: 600px;
+  border-radius: 60px;
+  margin: 500px auto 0 auto;
+  width: 500px;
+  resize: both;
 }
-p{
-  
+
+#animation{
+  border-radius: 100px;
+  width: 100px;
+  margin: 10px auto 0 auto;
+  resize: both;
 }
 
 .div1{
-  margin-left: 600px;
-  margin-bottom: 200px;
-  margin-top: 40px;
+  margin: 0 auto 0 auto;
+  resize: both;
 
 }
 
 .heading{
-  margin: 0px;
+  margin: 20 auto 0 auto;
   color:  #015668;
+  font-size: 60px;
+  resize: both;
 }
 
 .role{
-  margin-left: 20px;
-  margin-top: 0px;
+  margin: 0 auto 10px auto;
   color: #015668;
+  font-size: 20px;
+  width: 600px;
+  resize: both;
 }
