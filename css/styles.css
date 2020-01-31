@@ -25,6 +25,7 @@ body{
   width: 15%;
   float: left;
   margin-right: 5%;
+
 }
 
 #animation2{
@@ -32,6 +33,7 @@ body{
   float: right;
   width: 15%;
   margin-left: 5%;
+
 
 }
 
@@ -85,9 +87,10 @@ body{
 
 .div2{
   margin: 200px auto 200px auto;
-  width: 50%;
+  width: 90%;
   text-align: left;
   color:  #015668;
+
 
 
 
@@ -96,10 +99,11 @@ body{
 }
 
 .div3{
-  width: 50%;
+  width: 90%;
   margin: 200px auto 100px auto;
   text-align: right;
   color:  #015668;
+
 
 
 
