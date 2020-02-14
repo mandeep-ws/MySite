@@ -2,13 +2,10 @@ body{
  margin: 0;
  background-color: #fff1cf;
  text-align: center;
-
-}
+ }
 
 #mainimage{
   border-radius: 100px;
-  margin: 0 auto 0 auto;
-
   width: 30%;
 }
 
@@ -24,7 +21,8 @@ body{
   border-radius: 100px;
   width: 15%;
   float: left;
-  margin-right: 5%;
+  margin-right: 20px;
+  margin-left: 20px;
 
 }
 
@@ -32,7 +30,8 @@ body{
   border-radius: 100px;
   float: right;
   width: 15%;
-  margin-left: 5%;
+  margin-left: 20px;
+  margin-right: 20px;
 
 
 }
@@ -43,6 +42,11 @@ body{
   margin-right: 30%;
 }
 
+#color-change{
+background-color: #f6da63;
+padding-bottom: 10px;
+}
+
 #h21{
   margin: 0 auto 0 auto;
   font-size: 40px
@@ -51,14 +55,17 @@ body{
 
 #h31{
   margin: 0 auto 0 auto;
-  font-size: 26px
+  padding-top: 60px;
+  font-size: 25px
+
 }
 
 
 
 #h32{
   margin: 0 auto 0 auto;
-  font-size: 26px
+  padding-top: 60px;
+  font-size: 25px
 
 }
 
@@ -71,6 +78,7 @@ body{
 #p1{
   margin: 0 auto 0 auto;
   font-size: 20px
+
 }
 
 #p2{
@@ -83,10 +91,39 @@ body{
   font-size: 20px
 }
 
+.heading{
+  margin: 100px auto 0 auto;
+  color:  #015668;
+  font-size: 80px;
+  font-family: 'Dancing Script', cursive;
+}
+
+.div0{
+  background-color: #ffb677;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+
+.top-link{
+  color: #015668;
+  font-size: 20px;
+  margin: 0 80px 0 20px;
+  text-decoration: none;
+}
 
 .div1{
   margin: 0 auto 0 auto;
+  text-align: center;
+}
 
+.role{
+  margin-bottom: 100px;
+  color: #015668;
+  font-size: 20px;
+  font-family: 'Lobster', cursive;
+  text-align: center;
 }
 
 .div2{
@@ -94,76 +131,60 @@ body{
   width: 100%;
   text-align: left;
   color:  #015668;
+  padding-top: 80px;
 
 }
 
 .div3{
   width: 100%;
-  margin: 200px auto 100px auto;
+  margin: 200px auto 200px auto;
   text-align: right;
   color:  #015668;
+
 
 }
 
 .div4{
   width: 60%;
-  margin: 300px auto 100px auto;
+  margin: 200px auto 100px auto;
   color:  #015668;
+  text-align: center;
 }
 
 .div5{
  background-color: #ffb677;
- padding: 20px 0 10px;
+ padding-top: 60px;
+ padding-bottom: 20px;
 
 }
 
-.div6{
-  background-color: #ffb677;
-
-  padding-top: 40px;
-  padding-bottom: 40px;
-
-  text-align: center;
-}
-
-.heading{
-  margin: 100px auto 0 auto;
-
-  color:  #015668;
-  font-size: 80px;
-  font-family: 'Dancing Script', cursive;
-
-}
-
-.role{
-  margin: 0 auto 0 auto;
-  margin-bottom: 100px;
+.icons-top{
   color: #015668;
-  font-size: 20px;
-  font-family: 'Lobster', cursive;
-  width: 600px;
-
-  resize: both;
+  font-size: 45px;
+  /*padding-bottom: 30px;*/
 }
+
+.icons-bottom{
+  color: #015668;
+  font-size: 45px;
+  /*padding-top: 30px;*/
+}
+
+
+
+
+
 
 
 
 .footer-link{
+
   color: #015668;
   font-size: 20px;
   margin: 10px 20px;
   text-decoration: none;
 
 }
-
-.top-link{
-  color: #015668;
-  font-size: 20px;
-  margin: 0 80px 0 20px;
-  text-decoration: none;
-
-}
-
 
 .myButton {
   margin-top: 40px;
