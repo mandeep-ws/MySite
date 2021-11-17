@@ -1,0 +1,63 @@
+{
+ "properties": {
+  "displayName": "Vinayak",
+  "policyType": "Custom",
+  "metadata": {
+   "version": "1",
+   "parameterScopes": {
+    "logAnalytics": "/subscriptions/f99f27af-85c8-4b08-a888-a63099d793df"
+   },
+   "createdBy": "8a7dd6bf-75ec-424b-abe8-5f7b208e788c",
+   "createdOn": "2021-11-17T01:45:19.4714542Z",
+   "updatedBy": null,
+   "updatedOn": null
+  },
+  "parameters": {
+   "Vinayak-space": {
+    "type": "string",
+    "metadata": {
+     "displayName": "Vinayak-space"
+    },
+    "defaultValue": "Vinayak-space"
+   }
+  },
+  "policyDefinitions": [
+   {
+    "policyDefinitionReferenceId": "Auto provisioning of the Log Analytics agent should be enabled on your subscription_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/475aae12-b88a-4572-8b36-9b712b2b3a17",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Security Center standard pricing tier should be selected_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/a1181c5f-672a-477a-979a-7d58aa086233",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Subscriptions should have a contact email address for security issues_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/4f4f78b8-e367-4b10-a341-d9a4ad5cf1c7",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Enable Security Center's auto provisioning of the Log Analytics agent on your subscriptions with cus_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/8e7da0a5-0a0e-4bbc-bfc0-7773c018b616",
+    "parameters": {
+     "logAnalytics": {
+      "value": "[parameters('Vinayak-space')]"
+     }
+    },
+    "groupNames": []
+   }
+  ],
+  "policyDefinitionGroups": [
+   {
+    "name": "Vinayak"
+   }
+  ]
+ },
+ "id": "/subscriptions/f99f27af-85c8-4b08-a888-a63099d793df/providers/Microsoft.Authorization/policySetDefinitions/9a43f3f176f14377a71aebbf",
+ "type": "Microsoft.Authorization/policySetDefinitions",
+ "name": "9a43f3f176f14377a71aebbf"
+}
